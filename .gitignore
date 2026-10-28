@@ -1,0 +1,28 @@
+# 预处理窗口缓存：可从 SisFall 原始数据重新生成，其中 sisfall_full_windows.npz 达 162 MB，
+# 超出 GitHub 单文件 100 MB 上限，因此不入库
+outputs/*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器与工具产物
+.screenshots/
+.trae-html-share-packages/
+.vscode/
+
+# 与跌倒检测无关的 ExoPet 资料，保留在本地
+work/
+exopet-v3/
+ExoPet商业分析方法.txt
+sp.json
+wi.json
+
+# 读取桌面成绩表的个人脚本，与项目无关
+read_grades.py
+
+# 系统文件
+Thumbs.db
+.DS_Store

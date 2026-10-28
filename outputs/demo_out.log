@@ -1,0 +1,9 @@
+计算测试集运动分数...
+文件列表重建: 4505 个 (最大 fid=4151, 一致性校验)
+
+跌倒演示试验: F01_SA21_R01 (走路滑倒(向前), 受试者 SA21)
+日常演示试验: D14_SA08_R01 (仰卧翻身侧躺再躺回, 受试者 SA08)
+  [跌倒] 报警簇 1 个, 判定: 确认
+  [日常] 报警簇 1 个, 判定: 撤销
+
+演示图已保存至 c:\Users\ASUS\Documents\trae_projects\fall detection\outputs\demo_pipeline.png

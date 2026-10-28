@@ -1,0 +1,9 @@
+# 老年人跌倒检测 (SisFall + CNN-LSTM) 依赖清单
+# 运行环境: conda env falldet (Python 3.9), CUDA 12.8 (RTX 50 系需 sm_120)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+# PyTorch 2.8.0+cu128, 安装命令:
+# pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.8
